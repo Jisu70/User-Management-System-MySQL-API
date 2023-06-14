@@ -1,0 +1,115 @@
+/* styles.css */
+
+/* Form container */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* Form inputs */
+input[type="text"],
+input[type="email"] {
+  width: 300px;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Submit button */
+button#botam {
+  width: 150px;
+  height: 40px;
+  margin-top: 20px;
+  font-size: 18px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button#botam:hover {
+  background-color: #45a049;
+}
+
+/* User list */
+ul#listofuser {
+  margin-top: 30px;
+  padding: 0;
+}
+
+ul#listofuser li {
+  margin-bottom: 10px;
+  list-style-type: none;
+  font-size: 16px;
+  font-size: 21px;
+}
+
+
+/* styles.css */
+
+/* Appended list items */
+/* styles.css */
+
+/* Form container */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* Form inputs */
+input[type="text"],
+input[type="email"] {
+  width: 300px;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+/* styles.css */
+
+/* Appended list items */
+ul#listofuser li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+}
+
+ul#listofuser li::before {
+  content: "\2022";
+  color: #4caf50;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+ul#listofuser li span {
+  margin-right: 10px;
+}
+
+ul#listofuser li .buttons {
+  margin-left: auto;
+}
+
+ul#listofuser li button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+ul#listofuser li button:hover {
+  background-color: #d32f2f;
+}
